@@ -1,15 +1,13 @@
-{% extends "layout.html" %}
-{% block content %}
-  <div class="services_content">
-    <div class="content_image">
-      <div class="services_image">
-        Services Image
-      </div>
-    </div>
-    <div class="content_text">
-      <div class="services_text">
-        Services Text
-      </div>
-    </div>
+{% extends "content_layout.html" %}
+
+{% block content_image %}
+  <div class="services_image">
+    Services Image
+  </div>
+{% endblock %}
+
+{% block content_text %}
+  <div class="services_text">
+    Services Text
   </div>
 {% endblock %}

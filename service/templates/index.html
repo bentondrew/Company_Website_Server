@@ -1,15 +1,13 @@
-{% extends "layout.html" %}
-{% block content %}
-  <div class="index_content">
-    <div class="content_image">
-      <div class="index_image">
-        Home Image
-      </div>
-    </div>
-    <div class="content_text">
-      <div class="index_text">
-        Home Text
-      </div>
-    </div>
+{% extends "content_layout.html" %}
+
+{% block content_image %}
+  <div class="index_image">
+    Home Image
+  </div>
+{% endblock %}
+
+{% block content_text %}
+  <div class="index_text">
+    Home Text
   </div>
 {% endblock %}

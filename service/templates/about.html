@@ -1,15 +1,13 @@
-{% extends "layout.html" %}
-{% block content %}
-  <div class="about_content">
-    <div class="content_image">
-      <div class="about_image">
-        About Image
-      </div>
-    </div>
-    <div class="content_text">
-      <div class="about_text">
-        About Text
-      </div>
-    </div>
+{% extends "content_layout.html" %}
+
+{% block content_image %}
+  <div class="about_image">
+    About Image
+  </div>
+{% endblock %}
+
+{% block content_text %}
+  <div class="about_text">
+    About Text
   </div>
 {% endblock %}
