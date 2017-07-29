@@ -3,8 +3,8 @@ The server for serving the Drewan Tech company Website
 
 To build docker image by ssh:
 
-docker build -t drewantech/company_website:0.0.8 git@github.com:Drewan-Tech/Company_Website_Server.git
+docker build -t drewantech/company_website:0.0.9 git@github.com:Drewan-Tech/Company_Website_Server.git
 
 To build docker image by https:
 
-docker build -t drewantech/company_website:0.0.8 https://github.com/Drewan-Tech/Company_Website_Server.git
+docker build -t drewantech/company_website:0.0.9 https://github.com/Drewan-Tech/Company_Website_Server.git
