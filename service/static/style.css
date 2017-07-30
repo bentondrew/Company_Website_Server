@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.company_title_box{
+  width: 100%;
+  text-align: center;
+}
+
 .link_header{
   padding: 0;
   margin: 0;
@@ -18,4 +23,5 @@
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
+  text-align: center;
 }
