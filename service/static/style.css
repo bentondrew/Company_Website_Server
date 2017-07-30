@@ -28,17 +28,12 @@
 }
 
 .content_image{
-  padding: 0;
   margin: 1%;
+}
+
+img{
   max-width: 100%;
   height: auto;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
 }
 
 .contact_footer{
