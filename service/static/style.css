@@ -27,6 +27,20 @@
   text-align: center;
 }
 
+.content_image{
+  padding: 0;
+  margin: 1%;
+  max-width: 100%;
+  max-height: 25%:;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
 .contact_footer{
   padding: 0;
   margin: 0;
